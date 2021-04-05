@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <div class="main-body">
+            <div class="calc">
+                <div class="output">
+                    <input type="text" id="screen" class="screen" />
+                </div>
+                <div class="buttons">
+                    <div class="row">
+                        <button onclick="btnclick(7)" class="btm">7</button>
+                        <button onclick="btnclick(8)" class="btm">8</button>
+                        <button onclick="btnclick(9)" class="btm">9</button>
+                        <button onclick="btnclick('+')" class="btm">+</button>
+                    </div>
+                    <div class="row2">
+                        <button onclick="btnclick(4)" class="btm">4</button>
+                        <button onclick="btnclick(5)" class="btm">5</button>
+                        <button onclick="btnclick(6)" class="btm">6</button>
+                        <button onclick="btnclick('-')" class="btm">-</button>
+                    </div>
+                    <div class="row2">
+                        <button onclick="btnclick(1)" class="btm">1</button>
+                        <button onclick="btnclick(2)" class="btm">2</button>
+                        <button onclick="btnclick(3)" class="btm">3</button>
+                        <button onclick="btnclick('*')" class="btm">x</button>
+                    </div>
+                    <div class="row2">
+                        <button onclick="btnclick(0)" class="btm">0</button>
+                        <button onclick="btnclick('.')" class="btm">.</button>
+                        <button onclick="btnclick('/')" class="btm">/</button>
+                        <button onclick="clearA()" class="btm3">c</button>
+                    </div>
+                    <div class="row2">
+                        <button onclick="ans()" class="btm1">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
